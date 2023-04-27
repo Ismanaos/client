@@ -1,0 +1,15 @@
+.obg
+{
+    margin: auto;
+    margin-top: 45px;
+    width: 70%;
+    color: #454545;
+}
+
+@media (max-width:573px){
+    .obg
+    {
+        margin: auto;
+        width: 100%;
+    }
+}
