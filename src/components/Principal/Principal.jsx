@@ -3,6 +3,7 @@ import Menu from '../Menu/Menu.jsx'
 import { useMediaQuery } from '@material-ui/core';
 import Introduccion from "../Introduccion/Introduccion.jsx";
 import Trabajos from "../Trabajos/Trabajos.jsx";
+import Mapa from "../Mapa/Mapa.jsx"
 
 export default function Principal(){
 
@@ -15,9 +16,10 @@ export default function Principal(){
                 <Navbar />
             }
             <Introduccion />
-            {[1,2,3,4,5].map((i) => 
+            {[1,2,3].map((i) => 
                 <Trabajos />
             )}
+            <Mapa />
         </div>
     )
 }
